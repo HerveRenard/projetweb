@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky-dark" id="sticky">
+    <div class="container-fluid">
+       <h1><a href="index.html" style="color: rgba(103, 250, 5, 0.8);">CoteTourism</a></h1> 
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="touriste.html" class="nav-link">Nos Sites</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  <section class="bg-home bg-warning">
+    <div class="home-center">
+        <div class="home-desc-center">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="text-center">
+                        <div class="home-title mo-mb-20">
+                            <h1 class="mb-4 text-white">Nos Sites Touristiques</h1>                            
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <div class="gallery">
+    <div class="image">
+        <img src="assets/images/Reserve_Abokouamékro1.jpg" alt="Image 1">
+        <p>Au cœur du « V baoulé », la Réserve de Faune d'Abokouamékro (RFA) dresse fièrement ses nombreux atouts touristiques. Ceux-ci ont longtemps fait d'elle, la destination privilégiée des touristes de Yamoussoukro en quête de safari.</p>
+    </div>
+    <div class="image">
+        <img src="assets/images/Le_musée_des_COMBES1.jpg" alt="Image 2">
+        <p>Le Musée Combes de Bingerville a été créé en 1937 par Maître Charles COMBES sous le nom de l'Atelier Privé de l'Art. En 1938, par décret de gouvernement colonial, il devient l'Ecole d'Art Appliquée de BINGERVILLE dépendant</p>
+    </div>
+    <div class="image">
+        <img src="assets/images/Banco1.jpg" alt="Image 3">
+        <p>Transformée en parc national depuis 1953, le banco est un massif forestier de 3474 hectares. Il s’agit d’une forêt dense avec des pistes où les feuilles s’entrelacent pour donner l’impression d’un tunnel.</p>
+    </div>
+  </div>
+    <!-- contact -->
+    <div class="container">
+        <h2>Contactez-nous</h2>
+        <form method="POST">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+    
+          <input type="submit" value="Envoyer">
+        </form>
+    </div>
+    <footer class="bg-dark footer">
+      <div class="container-fluid">
+          <div class="row mb-5">
+              <div class="float-start  col-lg-4">
+                  <div class="pe-lg-4">
+                      <div class="mb-4">
+                          <h1><a href="index.html" style="color: rgba(103, 250, 5, 0.8);">CôteTourism</a></h1>                                
+                      </div>
+                      <p class="text-white-50 mb-4 mb-lg-0">Nous sommes une structure de tourisme destine a toute personne voulznt visité notre ci beau pays.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- end row -->
+
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="float-start pull-none">
+                      <p class="text-white-50"><script>document.write(new Date().getFullYear())</script> &copy;CôteTourism. Design by Brou jean louis </p>
+                  </div>
+                  <div class="float-end pull-none">
+                      <div class="float-end pull-none">
+                          <p class="list-inline-item text-white-50 text-white mb-2 ">Menu</p>
+                          <ul class="list-inline-item ">
+                              <li class="list-inline-item"><a href="#"><i class="mdi  me-2"></i>Home</a></li>
+                              <li class="list-inline-item"><a href="#"><i class="mdi  me-2"></i>Features</a></li>
+                              <li class="list-inline-item"><a href="#"><i class="mdi  me-2"></i>Faq</a></li>
+                              <li class="list-inline-item"><a href="#"><i class="mdi  me-2"></i>Clients</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <!-- end col -->
+          </div>
+          <!-- end row -->
+      </div>
+      <!-- container-fluid -->
+  </footer>
+</body>
+</html>
